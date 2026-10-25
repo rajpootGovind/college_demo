@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Aurevia International School monogram">
+  <rect width="64" height="64" rx="4" fill="#14243A" />
+  <path d="M32 12 49 50h-6.6L32 26.4 21.6 50H15L32 12Z" fill="#D6AE66" />
+  <path d="M24.8 41.4h14.4l2.4 5.2H22.4l2.4-5.2Z" fill="#FAF8F3" opacity="0.9" />
+  <circle cx="32" cy="56" r="1.8" fill="#167D78" />
+</svg>

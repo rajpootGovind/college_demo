@@ -1,0 +1,37 @@
+import {
+  BookOpen,
+  Compass,
+  FlaskConical,
+  Globe2,
+  GraduationCap,
+  Handshake,
+  Heart,
+  Leaf,
+  Lightbulb,
+  Palette,
+  ShieldCheck,
+  Sparkles,
+  Target,
+  Trophy,
+  Users,
+  type LucideIcon,
+} from 'lucide-react'
+import type { IconName } from '../types'
+
+export const iconMap: Record<IconName, LucideIcon> = {
+  compass: Compass,
+  users: Users,
+  sparkles: Sparkles,
+  heart: Heart,
+  book: BookOpen,
+  flask: FlaskConical,
+  trophy: Trophy,
+  shield: ShieldCheck,
+  palette: Palette,
+  globe: Globe2,
+  leaf: Leaf,
+  lightbulb: Lightbulb,
+  graduation: GraduationCap,
+  target: Target,
+  handshake: Handshake,
+}

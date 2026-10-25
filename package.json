@@ -1,0 +1,25 @@
+{
+  "name": "aurevia-demo-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium school & college website demo platform — React + Express + MongoDB",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -n web,api -c cyan,magenta \"npm:dev -w client\" \"npm:dev -w server\"",
+    "dev:client": "npm run dev -w client",
+    "dev:server": "npm run dev -w server",
+    "build": "npm run build -w client && npm run build -w server",
+    "test": "npm run test -w client && npm run test -w server",
+    "typecheck": "npm run typecheck -w client && npm run typecheck -w server",
+    "start": "npm run start -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
